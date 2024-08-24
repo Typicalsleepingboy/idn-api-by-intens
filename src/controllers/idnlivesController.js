@@ -25,6 +25,7 @@ async function getIDNLives() {
             name: i.creator?.name,
             username: i.creator?.username,
             avatar: i.creator?.avatar,
+            followerCount: i.creator?.follower_count
           },
           image: i.image_url,
           stream_url: i.playback_url,
