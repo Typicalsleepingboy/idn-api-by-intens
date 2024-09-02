@@ -64,7 +64,7 @@ const jkt48Usernames = [
   "jkt48_kimmy",
 ];
 
-router.get("/jkt48", async (req, res) => {
+router.get("/jekatepatlapan", async (req, res) => {
   try {
     const filteredData = await filterIDNLivesByUsernames(jkt48Usernames);
 
